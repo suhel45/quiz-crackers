@@ -6,6 +6,7 @@ const Main = () => {
     return (
         <div>
             <Header></Header>
+            <p className='text-3xl text-lime-500'>P-hero Quiz Test checker</p>
             <Outlet></Outlet>
         </div>
     );
