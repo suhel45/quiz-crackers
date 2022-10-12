@@ -2,170 +2,19 @@ import React from 'react';
 
 const Blog = () => {
     return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="p-8 rounded shadow-xl sm:p-16">
-        <div className="flex flex-col lg:flex-row">
-          <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
-            <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              The quick, brown fox
-              <br className="hidden md:block" />
-              jumps over{' '}
-              <span className="inline-block text-deep-purple-accent-400">
-                a lazy dog
-              </span>
-            </h2>
-          </div>
-          <div className="lg:w-1/2">
-            <p className="mb-4 text-base text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut
-              perspiciatis unde omnis iste. Sed ut perspiciatis unde omnis iste
-              error sit voluptatem accusantium doloremque rem aperiam.
-            </p>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </a>
-          </div>
+      <div>
+        <div>
+        <p>Perpas of React Router?</p>
+        <p>React Router is a standard library for routing in React. It enables the navigation among 
+        views of various components in a React Application, allows changing the browser URL, and 
+        keeps the UI in sync with the URL.</p>
+        </div>
+        <div>
+          <p>How does context Api work?</p>
+          <p></p>
         </div>
       </div>
-    </div>
-  );
-    return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="p-8 rounded shadow-xl sm:p-16">
-        <div className="flex flex-col lg:flex-row">
-          <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
-            <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              The quick, brown fox
-              <br className="hidden md:block" />
-              jumps over{' '}
-              <span className="inline-block text-deep-purple-accent-400">
-                a lazy dog
-              </span>
-            </h2>
-          </div>
-          <div className="lg:w-1/2">
-            <p className="mb-4 text-base text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut
-              perspiciatis unde omnis iste. Sed ut perspiciatis unde omnis iste
-              error sit voluptatem accusantium doloremque rem aperiam.
-            </p>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-    return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="p-8 rounded shadow-xl sm:p-16">
-        <div className="flex flex-col lg:flex-row">
-          <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
-            <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              The quick, brown fox
-              <br className="hidden md:block" />
-              jumps over{' '}
-              <span className="inline-block text-deep-purple-accent-400">
-                a lazy dog
-              </span>
-            </h2>
-          </div>
-          <div className="lg:w-1/2">
-            <p className="mb-4 text-base text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut
-              perspiciatis unde omnis iste. Sed ut perspiciatis unde omnis iste
-              error sit voluptatem accusantium doloremque rem aperiam.
-            </p>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-    return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="p-8 rounded shadow-xl sm:p-16">
-        <div className="flex flex-col lg:flex-row">
-          <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
-            <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              The quick, brown fox
-              <br className="hidden md:block" />
-              jumps over{' '}
-              <span className="inline-block text-deep-purple-accent-400">
-                a lazy dog
-              </span>
-            </h2>
-          </div>
-          <div className="lg:w-1/2">
-            <p className="mb-4 text-base text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut
-              perspiciatis unde omnis iste. Sed ut perspiciatis unde omnis iste
-              error sit voluptatem accusantium doloremque rem aperiam.
-            </p>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-    return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="p-8 rounded shadow-xl sm:p-16">
-        <div className="flex flex-col lg:flex-row">
-          <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
-            <h2 className="font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              The quick, brown fox
-              <br className="hidden md:block" />
-              jumps over{' '}
-              <span className="inline-block text-deep-purple-accent-400">
-                a lazy dog
-              </span>
-            </h2>
-          </div>
-          <div className="lg:w-1/2">
-            <p className="mb-4 text-base text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae. Sed ut
-              perspiciatis unde omnis iste. Sed ut perspiciatis unde omnis iste
-              error sit voluptatem accusantium doloremque rem aperiam.
-            </p>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+    )
 };
 
 export default Blog;
