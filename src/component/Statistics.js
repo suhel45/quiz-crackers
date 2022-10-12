@@ -8,7 +8,6 @@ const Statistics = () => {
     const loadData = useLoaderData().data;
     let total = [];
     loadData.map(datas =>total.push({name:datas.name,total:datas.total}));
-    console.log(total)
     const data = [{name: 'Page A', uv: total, pv: 2400, amt: 2400}];
 
     return (

@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 const Topic = (props) => {
     const {id,name,logo,total} = props.topic;
-    console.log(props.topic)
     return (
         <div >
            <img 
